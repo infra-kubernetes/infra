@@ -10,8 +10,6 @@ kbcli addon enable apecloud-mysql
 kbcli addon enable redis
 kbcli addon enable postgresql
 kbcli addon enable mongodb
-kbcli clusterversion unset-default mongodb-5.0
-kbcli clusterversion set-default mongodb-6.0
 
 KB_BACKUP_OPTS=${KB_BACKUP_OPTS:-"--endpoint minio.minio.svc:9000 --access-key-id admin --secret-access-key admin123"}
 
